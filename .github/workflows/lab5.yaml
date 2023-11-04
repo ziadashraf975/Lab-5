@@ -7,8 +7,8 @@ jobs :
     steps:
       -name: print the triggering event 
 
-         run : echo "the job was triggered by ${{github.event_name}}"
+       run : echo "the job was triggered by ${{github.event_name}}."
          
       -name: print the OS of the runner 
 
-         run : echo "the job is running on a ${{runner.os}} server" 
+       run : echo "the job is running on a ${{runner.os}} server" 
